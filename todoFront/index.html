@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div id="editBack" onclick="editTodoClose()"></div>
+    <div>
+        <div class="addTodo">
+            <h1>To Do List</h1>
+            <div>
+                <h2>To Do</h2>
+                <input id="todo" type="text" >
+            </div>
+            <div>
+                <h2>To Do Description</h2>
+                <textarea id="description" ></textarea>
+            </div>
+            <button onclick="addTodo()">Add To Do</button>
+        </div>
+        <div id="todos"></div>
+    </div>
+    <div id="edit">
+        <div>
+            <h2 class="edith2">To Do</h2>
+            <input id="editTodo" type="text">
+        </div>
+        <div>
+            <h2 class="edith2">To Do Description</h2>
+            <textarea id="editDescription" ></textarea>
+        </div>
+        <button id="editBtn">Edit</button>
+        <button class="close" onclick="editTodoClose()">Close</button>
+    </div>
+
+</body>
+</html>
+

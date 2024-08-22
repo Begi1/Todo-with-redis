@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003366;
+}
+
+.addTodo {
+    padding: 20px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    background-color: #D3D3D3;
+}
+
+h2 {
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.addTodo input {
+    padding: 8px;
+    margin-top: 8px;
+    width: 280px;
+    height: 32px;
+    background-color: #D3D3D3;
+}
+
+.addTodo textarea {
+    padding: 8px;
+    margin-top: 8px;
+    width: 280px;
+    height: 200px;
+    resize: none;
+    background-color: #D3D3D3;
+}
+
+.addTodo button {
+    margin-top: 14px;
+    width: 280px;
+    height: 32px;
+    cursor: pointer;
+    background-color: #228B22;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.addTodo button:hover {
+    opacity: 50%;
+}
+
+#todos{
+    margin-top: 20px;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    background-color: #D3D3D3;
+    border-radius: 14px;
+}
+
+.todoCont {
+    width: 260px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoCont button {
+    margin-top: 14px;
+    width: 280px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.editBtn {
+    background-color: #F9A602;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.editBtn:hover {
+    opacity: 50%;
+}
+
+.deleteBtn {
+    background-color: #DC143C;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.deleteBtn:hover {
+    opacity: 50%;
+}
+
+#editBack {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 95%;
+}
+
+#edit {
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+    top: 50px;
+    width: 300px;
+    height: auto;
+    background-color: #003366;
+    text-align: center;
+    border-radius: 14px;
+}
+
+.edith2 {
+    margin-bottom: 8px;
+    text-align: start;
+    color: white;
+}
+
+#editTodo {
+    padding: 4px;
+    width: 100%;
+}
+
+#editDescription {
+    padding: 4px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+#editBtn {
+    height: 24px;
+    background-color: #F9A602;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#editBtn:hover {
+    opacity: 50%;
+}
+
+.close {
+    height: 24px;
+    background-color: #D3D3D3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
